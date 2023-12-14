@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-1.13.8/datatables.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Clinica Dermatologa</title>
+</head>
+<body>
+    <encabezado-n></encabezado-n>
+    <main>
+        <div class="container-flex">
+            <div class="row">
+                <div class="textover">
+                    <div class="swiper-slide shadow-lg"><img src="https://www.pmfarma.com/articulos/contenido/3755/image/danieljimenez845.jpg" alt="" width="100%"></div>
+                    <div class="centered">Centro Demartologico</div>
+                    <div class="centered1 mt-3"><p>#CuidamosTuPiel</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-md mt-0" id="agendarCita1" style="display: none;" >
+            <div class="row">
+                <h2 class="text-center mt-5">Tus Citas</h2>
+            </div>
+            <div class="row p-3 m-3 shadow-lg">
+                <div class="col col-md-12">
+                    <div class="table-responsive">
+                        <table id="example1" class="table display" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Email</th>
+                                    <th>Telefono</th>
+                                    <th>Mensaje</th>
+                                    <th>Eliminar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Email</th>
+                                    <th>Telefono</th>
+                                    <th>Mensaje</th>
+                                    <th>Eliminar</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    
+                </div>   
+            </div>
+        </div>
+        <div class="container-md mt-5" id="servicios">
+            <div class="row justify-content-center">
+                <div>
+                    <h2 class="text-center">Nuestros Servicios</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col col-12 col-sm-4 col-md-4" id="collapseExample2" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <div class="card shadow-lg" style="width: 100%;">
+                        <img src="img/servicio1.jpg" class="card-img-top" alt="..." height="350px">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Eliminacion de puntos</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <a href="#" class="card-link">Conoce más</a></p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-4 col-md-4" id="collapseExample3" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <div class="card shadow-lg " style="width: 100%;">
+                        <img src="img/servicio2.jpg" class="card-img-top" alt="..." height="350px">
+                        <div class="card-body">
+                            <h5 class="card-title">Botox estitico</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <a href="#" class="card-link">Conoce más</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-4 col-md-4" id="collapseExample4" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <div class="card shadow-lg" style="width: 100%;">
+                        <img src="img/servicio3.webp" class="card-img-top" alt="..." height="350px">
+                        <div class="card-body">
+                            <h5 class="card-title">Eliminacion de manchas</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <a href="#" class="card-link">Conoce más</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Servicio de Dermatologia</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="container mt-4"  >
+                            <div class="row justify-content-center">
+                        
+                                <div class="col-lg-12 justify-content-center bg-white">
+                                        <div class="row justify-content-center text-center">                        
+                                                <div class="col-md-12 mt-3 mb-3">    
+                                                    <div>
+                                                        <h1 class="modalh1">Un buen servicio</h1>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 mb-3">
+                                                    <div>
+                                                        <p class="modalh1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima odio placeat error quidem dolor doloribus illum quisquam ex. Nobis magni ab autem sequi qui possimus adipisci tenetur officia optio nam?</p>
+                                                        <p class="modalh1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores neque placeat saepe, suscipit fuga, maxime nostrum officiis debitis dignissimos atque quos illum eum dolorum delectus sed sapiente minima exercitationem consequatur?</p>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Agendar cita</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="container" id="nosotros">
+            <div class="row">
+                <h2 class="text-center mt-5">
+                    Nosotros
+                </h2>
+            </div>
+            <div class="row text-center">
+            <div class="col-md-12 mb-0 mt-3">
+                <div class="shadow-5 p-0 mb-0 mt-0 "><img class="img-fluid shadow-lg" src="img/Untitl3d.png" style="border-radius: 10px;" alt="" ></div>
+            </div>
+        </div>
+            <div class="row mt-3 justify-content-center">
+                <div class="col col-md-12 text-center">
+                    <h3>Bienvenido a [Nombre de la Clínica]</h3>
+                    <p>En [Nombre de la Clínica], nuestra misión es proporcionar atención dermatológica de vanguardia con un enfoque personalizado para cada paciente. Nos enorgullece ser líderes en el cuidado de la piel, ofreciendo soluciones integrales respaldadas por un equipo de profesionales altamente calificados y apasionados por su trabajo.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-md mt-0" id="contactanos">
+            <div class="row">
+                <h2 class="text-center mt-5">Contactanos</h2>
+            </div>
+            <form action="" id="enviarMensaje">
+                <div class="row p-3 m-3">
+                    <div class="col col-md-6">
+                        <div class="col-md-12 mb-3">    
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="nombreCompleto" placeholder="" required>
+                                <label>Nombre Completo</label>
+                            </div>
+                        </div>
+                        <div class="col col-md-12 mb-3">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="emailMensaje" placeholder="correo@ejemplo.com" required>
+                                <label>Email</label>
+                            </div>
+                        </div>
+                        <div class="col col-md-12 mb-3">    
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="telefonoMensaje" placeholder="#" required>
+                                <label>Telefono</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col col-md-12 mb-3">
+                            <div class="form-floating">
+                                <textarea style="height: 100px;" class="form-control" id="mensaje" aria-label="With textarea" required></textarea>
+                                <label>Mensaje</label>
+                            </div>
+                        </div>
+                        <div class="col col-md-6">
+                            <div>
+                                <button type="button" onclick="mensaje1()" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d60523.57598510355!2d-69.95020030050036!3d18.541393055067612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sclinica%20dermatologica!5e0!3m2!1ses-419!2sdo!4v1702184373562!5m2!1ses-419!2sdo" width="100%" height="100%" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <pie-n></pie-n>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-1.13.8/datatables.min.js"></script>
+<script src="scripts/scripts.js"></script>
+<script src="layout/header.js"></script>
+<script src="layout/footer.js"></script>
+<script src="scripts/register.js"></script>
+<script src="scripts/login.js"></script>
+<script src="scripts/mensaje.js"></script>
+</body>
+
+
+</html>

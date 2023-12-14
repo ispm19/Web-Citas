@@ -1,0 +1,6 @@
+Para loguearse como administrador
+
+correo: admin@hotmail.com
+password: admin
+
+Los otros usuarios puede agregarlo usted mismo en registrar
