@@ -47,13 +47,4 @@ var swiper1 = new Swiper(".mySwiper1", {
     }) 
 });
 
-document.addEventListener("scroll", function() {
-    var contenido = document.querySelector(".contenido");
-    var rect = contenido.getBoundingClientRect();
-
-    if (rect.top < window.innerHeight * 0.75) {
-        contenido.style.opacity = 1;
-        contenido.style.transform = "translateY(0)";
-    }
-});
 

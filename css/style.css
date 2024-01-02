@@ -124,11 +124,7 @@ h2{
   text-shadow: 4px 4px 4px rgb(29, 24, 25);
 }
 
-.contenido {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-}
+
 hr {
   height: 10px;
   width: 25vh;
